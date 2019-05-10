@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'metropolismedium';
+    src: url('../fonts/metropolis-medi.um-webfont.woff2') format('woff2'),
+         url('../fonts/metropolis-med.ium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'metropolisbold';
+    src: url('../fonts/metropolis-bold-webf.ont.woff2') format('woff2'),
+         url('../fonts/metropolis-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'metropolisregular';
+    src: url('../fonts/metropolis-regular-webfont.woff2') format('woff2'),
+         url('../fonts/metropolis-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'metropolisthin';
+    src: url('../fonts/metropolis-thin-webfont.woff2') format('woff2'),
+         url('../fonts/metropolis-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'metropolislight';
+    src: url('../metropolis-light-webfont.woff2') format('woff2'),
+         url('../metropolis-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+*{ margin: 0px; padding: 0px; }
+body{ background:#f1f1f3;  font-family: 'metropolisregular'; color: #717074;  }
+.clear{ clear: both;}
+.wrapper{ max-width:1000px; margin: 0 auto; background:#fff;  }
+.banner{ position:relative;}
+.caption-wrapper{ position: absolute; top: 20%; left: 7%; }
+.logo-box{ width: 400px; }
+.logo-box img{ width: 100%; }
+.caption-wrapper h1{ font-weight: 100; font-size:24px; margin-top: 5%; color:#18428a; line-height: 40px; }
+
+.wrapper-mid{ padding: 5%; padding-top: 15px; }
+
+.wrapper-mid ul{ padding-left: 5%; }
+
+.form-wrapper{ background:#1a428a; border-radius:10px; padding: 20px; margin-top: -25%; color:#fff;  }
+.form-wrapper h2{ font-size: 22px; color:#fff;    }
+
+.btd{ background:#77bd1f;  }
+
+.wrapper-mid h1{ font-size: 22px; line-height: 0px; margin-top: 5%; margin-bottom: 0px;}
+
+.wrapper-mid h2{ font-size: 22px; font-family: 'metropolisbold';  }
+
+.wrapper-mid .table td, .table th{ border: 0px; padding: 8px; }
+
+.speaker-wrapper{ margin-top:30px;  }
+.speaker-wrapper h3{ font-size: 18px; margin-bottom: 30px;  }
+.speaker-icon{ float: left; }
+.speaker-contain{ float: left; padding-left: 20px;}
+
+#page-footer .footer-container{ margin-top: 0px !important; }

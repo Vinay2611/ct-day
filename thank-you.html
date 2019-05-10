@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>VMware Cloud Transformation Day 2019</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <script type=text/javascript>
+    (function (id) {
+        function append(scriptid, url, async) {
+            var d = document, sn = 'script', f = d.getElementsByTagName(sn)[0];
+            if (!f) f = d.head;
+            var s = d.createElement(sn);
+            s.async = true;
+            s.id = scriptid;
+            s.src = url;
+            f.parentNode.insertBefore(s, f);
+        }
+      function getRootDomain() {
+            var parts = window.location.hostname.split('.');
+            if (parts.length === 2) rootDomain = parts[0];
+            else if (parts.length > 2) {
+              // see if the next to last value is a common tld
+              var part = parts[parts.length - 2];
+              if (part === 'com' || part === 'co') {
+                rootDomain = parts[parts.length - 3]; // go back one more
+              } else {
+                rootDomain = part;
+              }}
+           return rootDomain; }
+        window.evidon = {};
+        window.evidon.id = id;
+        var cdn = '//c.evidon.com/', rootDomain = getRootDomain(), noticecdn = cdn + 'sitenotice/';
+        append('evidon-notice', noticecdn + 'evidon-sitenotice-tag.js', false);
+        append('evidon-location', cdn + 'geo/country.js', true);
+        append('evidon-themes', noticecdn + id + '/snthemes.js', true);
+        if (rootDomain) append('evidon-settings', noticecdn + id + '/' + rootDomain + '/settings.js', true);
+        window.evidon.priorConsentCallback = function () {
+// Add the tags which need to wait for prior consent here.  
+// This should be all your advertising tags and probably most of your social and tracking tags.
+        }
+    })(4478);
+</script>
+
+  
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  
+  <link rel="stylesheet" href="https://www.vmware.com/content/dam/vmwaredesigns/scraper/responsive-microsites.css"/>
+  <!--<link rel="stylesheet" type="text/css" href="https://www.vmware.com/content/dam/vmwaredesigns/scraper/scrapper-footer.css"/>-->
+  
+  <script src="https://campaign.vmware.com/js/itprb/translations.js"></script>
+  
+</head>
+
+<body>
+	<div class="container">
+		<div class="wrapper">
+			<div class="banner">
+				<img src="images/reg-banner.jpg" class="img-fluid">
+				<div class="caption-wrapper">
+					<div class="logo-box">
+						<img src="images/vmware-evolve.jpg">
+					</div>
+					<h1>You have successfully register for the event!
+					</h1>
+				</div>
+			</div>
+			
+			<div class="wrapper-mid">
+				<div class="row">
+					<div class="col-md-12">
+						<h2>You will receive a confirmation from our event secretariat.</h2>
+						
+						<p>Every business uses the cloud in a different way. Wherever you are on your cloud journey, we’ve got the expert insights and strategic guidance you need to make the right next move. At the event, we’ll discuss:</p>
+						<ul>
+							<li>The challenges of meeting modern needs with traditional infrastructure </li>
+							<li>How cloud technology is creating new opportunities across industries</li>
+							<li>How a cloud strategy helps you keep applications consistent and secure</li>
+							<li>Drive a successful business with empowered employees and a digital workspace platform </li>
+							<li>Redesign delivery models for mobile and cloud technologies</li>
+							<li>Achieve consistent connectivity from data center to public cloud to edge</li>
+							<li>Rethink the way you design and deploy security  </li>
+							<li>Use intelligent automation to streamline network operations and configuration</li>
+						</ul>
+						
+						<p>We can’t wait to see you there. </p>
+						
+					</div>
+					
+				</div>
+				
+				
+
+			</div>
+			
+		</div>
+	</div>
+	<div id="page-footer"></div>
+<script type="text/javascript" src="https://www.vmware.com/bin/vmware/template/scrapper.us.js"></script><script type="text/javascript" src="https://www.vmware.com/content/dam/vmwaredesigns/scraper/responsive.js"></script>
+
+</body>
+</html>
